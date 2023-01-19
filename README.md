@@ -1,2 +1,2 @@
 # NOPfuscator
-A naïve binary obfuscator for hiding valid instructions within multi-byte NOP instructions. Inspired by the article 
+NOPfuscator is a naïve binary obfuscator that can hide valid instructions within multi-byte NOP instructions. Entire lengths of assembly code can be hidden using this technique. The result is that standard automated disassembly tools fail to disassemble the true, hidden executation path and instead display only the NOP instructions. Inspired by the article "A new instruction overlapping technique for anti-disassembly and obfuscation of x86 binaries" by Christopher Jamthagen, Patrik Lantz, and Martin Hell.
